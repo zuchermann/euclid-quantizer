@@ -38,17 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 401.0, 267.0, 150.0, 20.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -68,7 +57,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 452.400024, 180.0, 74.0, 22.0 ],
 					"style" : "",
-					"text" : "9 31 2 12 1."
+					"text" : "9 31 0 12 1."
 				}
 
 			}
@@ -168,7 +157,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 272.400024, 180.0, 74.0, 22.0 ],
 					"style" : "",
-					"text" : "7 19 2 12 1."
+					"text" : "7 19 0 12 1."
 				}
 
 			}
@@ -250,7 +239,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 272.400024, 40.0, 74.0, 22.0 ],
 					"style" : "",
-					"text" : "7 12 0 12 1."
+					"text" : "7 12 5 12 1."
 				}
 
 			}
@@ -505,21 +494,21 @@
 			"obj-125::obj-46" : [ "Offset", "Offset", 0 ],
 			"obj-125::obj-51" : [ "Freq", "Freq", 0 ],
 			"obj-125::obj-36" : [ "PW", "PW", 0 ],
-			"obj-124::obj-75" : [ "Shape", "Shape", 0 ],
 			"obj-124::obj-94" : [ "Re-Trigger", "Re-Trigger", 0 ],
+			"obj-124::obj-75" : [ "Shape", "Shape", 0 ],
 			"obj-125::obj-45" : [ "FreqMode", "FreqMode", 0 ],
 			"obj-125::obj-11" : [ "PWM", "PWM", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "zk.euclidquantize.maxpat",
-				"bootpath" : "~/Documents/Max 7/Library/euklidquantize",
+				"bootpath" : "~/Documents/Max 7/Library/euclidquantize",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.euclidpitch.js",
-				"bootpath" : "~/Documents/Max 7/Library/euklidquantize",
+				"bootpath" : "~/Documents/Max 7/Library/euclidquantize",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

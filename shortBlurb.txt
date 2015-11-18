@@ -1,0 +1,5 @@
+Euclidean-Quantizer
+
+Quantize a pitch signal to a scale based on euclid’s greatest common divisor algorithm
+
+November 2015 Zach Kondak
